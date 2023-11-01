@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+/* header styles */
+header{
+    display: flex;
+    
+}
+#icon{
+    background-color: black;
+    width: 10%;
+}
+#nav{
+    background-color:cadetblue;
+    width: 90%;
+    text-align: center;
+}
+
+
+/* Search container styles */
+#search-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#search-input{
+    height: 3rem;
+    font-size: 20px;
+}
+#search-button{
+    width: 5rem;
+}
+
+/*Search List */
+#search-list{
+    left:596px;
+    width: 216px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+}
