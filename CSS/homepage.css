@@ -1,43 +1,75 @@
 body{
-    margin: 0;
+    margin: 0px;
 }
-
-/* header styles */
-header{
+/*Header styles*/
+#header{
     display: flex;
-    
 }
 #icon{
-    background-color: black;
     width: 10%;
+    background-color: blueviolet;
 }
-#nav{
-    background-color:cadetblue;
-    width: 90%;
+#title{
+    width:90%;
     text-align: center;
+    background-color: cadetblue;
 }
 
-
-/* Search container styles */
-#search-container{
+/*search box css*/
+#search-box{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
-
 #search-input{
-    height: 3rem;
-    font-size: 20px;
-}
-#search-button{
-    width: 5rem;
+    height: 50px;
+    width: 30%;
+    font-size: 25px;
 }
 
-/*Search List */
-#search-list{
-    left:596px;
-    width: 216px;
-    height: 200px;
-    background-color: aqua;
-    position: relative;
+
+/*search suggestions */
+#search-suggestions{
+    width: 450px;
+    background-color: white;
+    position: absolute;
+    left:33%;
+}
+
+.suggestions-item{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+/*Search results */
+#search-results{
+    /* background-color: brown; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+
+.result-item{
+    width: 190px;
+    height: 190px;
+    margin: 10px;
+}
+
+.result-item img{
+    width: 100%;
+    height: 100%;
+}
+
+/*WishList Style */
+.favorite{
+    color: red;
+}
+
+
+/*Movie Details stayle*/
+.movie-details{
+    display: flex;
+}
+.details{
+    margin-left: 100px;
 }
